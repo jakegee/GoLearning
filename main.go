@@ -1,27 +1,16 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("  __      _")
-	fmt.Println("o'')}____//")
-	fmt.Println(" `_/      )")
-	fmt.Println(" (_(_/-(_/ ")
+	var congrats string
+	congrats = "Congratulations"
+	congrats += "!!!"
+	fmt.Println(congrats)
 
-	fmt.Println("    `.-::::::-.`    ")
-	fmt.Println(".:-::::::::::::::-:.")
-	fmt.Println("`_:::    ::    :::_`")
-	fmt.Println(" .:( ^   :: ^   ):. ")
-	fmt.Println(" `:::   (..)   :::. ")
-	fmt.Println(" `:::::::UU:::::::` ")
-	fmt.Println(" .::::::::::::::::. ")
-	fmt.Println(" O::::::::::::::::O ")
-	fmt.Println(" -::::::::::::::::- ")
-	fmt.Println(" `::::::::::::::::` ")
-	fmt.Println("  .::::::::::::::.  ")
-	fmt.Println("    oO:::::::Oo     ")
-	fmt.Println(time.Now())
+	var challenge string = "What else can you do?"
+	fmt.Println(challenge)
+
+	reminder := "Pratice is important!"
+	fmt.Println(reminder)
 }
