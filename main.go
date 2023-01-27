@@ -28,4 +28,9 @@ func main() {
 
 	fmt.Println(title, "written by", writer, "drawn by", artist, "published by", publisher, "year written", year, "page number", pageNumber, "graded", grade)
 
+	animal1 := "cat"
+	animal2 := "dog"
+
+	// Add your code below:
+	fmt.Printf("Are you a %v or a %v person?", animal1, animal2)
 }
