@@ -33,4 +33,10 @@ func main() {
 
 	// Add your code below:
 	fmt.Printf("Are you a %v or a %v person?", animal1, animal2)
+
+	if lessonLearned := true; lessonLearned {
+		fmt.Println("Great job! You can continue on to the next exercise.")
+	} else {
+		fmt.Println("Practice makes perfect.")
+	}
 }
