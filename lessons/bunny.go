@@ -1,11 +1,11 @@
-package main
+package lessons
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func bunny() {
 	fmt.Println("  __      _")
 	fmt.Println("o'')}____//")
 	fmt.Println(" `_/      )")
